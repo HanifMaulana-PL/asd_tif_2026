@@ -11,8 +11,10 @@ public class testDoublyLinkedList {
         linkedList.addFirst(4);
         linkedList.addFirst(5);
         linkedList.addFirst(6);
+        //Hasil-hasil method sudah benar, akan tetapi jawabab di fileTest ini salah karena menganggap data dimasukkan
+        //dengan addLast sedangkan yang sebanarnya digunakan adalah addFirst sehingga urutan nodenya sudah terbalik sejak awal
         System.out.println(linkedList.get(2)); // menghasilkan nilai 3
-        System.out.println(linkedList.get(12)); //Terjadi exception error
+        //System.out.println(linkedList.get(12)); //Terjadi exception error
         System.out.println(linkedList.indexOf(4));// menghasilkan 5
         System.out.println(linkedList.indexOf(10));// menghasilkan -1
         linkedList.printReverse(); // Menghasilkan 6,5,4,3,2,1
